@@ -272,19 +272,19 @@ body.home #when-where iframe {
   background-color: #fff;
   min-height: 290px;
 }
-body.home #blog {
+body.home #news {
   background-color: #2b8fb5;
 }
-body.home #blog article {
+body.home #news article {
   text-align: center;
 }
-body.home #blog article h1 {
+body.home #news article h1 {
   margin-bottom: 24px;
 }
-body.home #blog article a {
+body.home #news article a {
   color: #fff;
 }
-body.home #blog article a.read-more {
+body.home #news article a.read-more {
   background: transparent url('../img/link_bg.png') left 3px no-repeat;
   padding-left: 17px;
   font-weight: bold;
