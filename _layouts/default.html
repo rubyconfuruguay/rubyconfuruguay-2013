@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
+        <meta name="description" content="Regional conference about Ruby, Rails and web development">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Arvo:400">
+        <link rel="stylesheet" href="/media/css/main.css">
+
+        <script src="/media/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body class="{{ page.body_class }}">
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <nav>
+            <div class="container">
+                <h1><a class="logo" href="/"><img src="/media/img/rubyconf_uruguay_logo.png" alt="{{ site.name }}"></a></h1>
+                <ul>
+                    <li><a href="#call-for-proposals">Call for proposals</a></li>
+                    <li><a href="#when-where">When and where</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#last-year-edition">2011 Edition</a></li>
+                    <li class="register"><a href="#">Register</a></li>
+                    <li><a href="#">Language</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        {{ content }}
+
+        <footer>
+            <div class="container">
+                <ul>
+                    <li><a href="#" class="twitter">Follow us in twitter</a>
+                    <li><a href="#" class="facebook">Become a fan in facebook</a>
+                    <li><a href="mailto:rubyconfuruguay.org" class="email">Email us at info@rubyconfuruguay.org</a>
+                </ul>
+            </div>
+        </footer>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="media/js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+        <script src="/media/js/main.js"></script>
+
+        <script>
+            var _gaq=[['_setAccount',{{ site.google_analytics_id }}],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
+</html>

@@ -1,0 +1,391 @@
+/* Eric Meyer's CSS Reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* Global *****************************************************************/
+
+body {
+  color: #333;
+  font-size: 16px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Nav */
+nav {
+  background-color: #222;
+  min-height: 65px;
+  padding: 50px 0;
+}
+nav .logo {
+  float: left;
+}
+nav ul {
+  float: right;
+}
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  line-height: 35px;
+  color: #f0f0f0;
+  display: inline-block;
+  padding: 0 10px;
+  margin: 20px 0;
+}
+nav ul li a:hover {
+  color: #fff;
+}
+nav ul li.register {
+  margin-left: 30px;
+}
+nav ul li.register a {
+  background-color: #2b8fb5;
+  color: #fff;
+}
+nav ul li.register a:hover {
+  background-color: #2384a9;
+}
+
+/* Headings */
+h1.primary,
+h1.secondary {
+  font-family: Arvo, Helvetica, serif;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+h1.primary {
+  font-size: 40px;
+  margin-bottom: 0.5em;
+}
+h1.secondary {
+  font-size: 20px;
+}
+
+/* paragraphs */
+p {
+  margin-bottom: 24px;
+  line-height: 1.5em;
+}
+* p:last-child {margin-bottom: 0;}
+
+strong {font-weight: bold;}
+em {font-style: italic;}
+
+::-moz-selection {background: #2b8fb5; color: #fff;}
+::selection {background: #2b8fb5; color: #fff;}
+
+/* Buttons */
+.btn {
+  padding: 11px 16px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn.primary {
+  color: #fefefe;
+  background-color: #222; /* dark gray */
+}
+.btn.primary:hover {
+  color: #fff;
+  background-color: #000;
+}
+.btn.secondary {
+  color: #f4fcff;
+  background-color: #2b8fb5; /* blue */
+}
+.btn.secondary:hover {
+  color: #fff;
+  background-color: #2584a8;
+}
+.btn.tertiary {
+  color: #333;
+  background-color: #ffffff; /* light gray */
+}
+.btn.tertiary:hover {
+  color: #111;
+  background-color: #f2f2f2;
+}
+
+/* Utilities */
+a {
+  text-decoration: none;
+}
+.hidden {
+  display: none;
+}
+.clearfix {
+  clear: both;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+}
+footer .container {
+  position: relative;
+  padding: 40px 0;
+  background: transparent url('../img/footer_bg.png') left center no-repeat;
+  min-height: 76px;
+}
+footer ul {
+  position: absolute;
+  right: 0;
+}
+footer li a {
+  background: transparent url('../img/sprites.png') left top no-repeat;
+  padding-left: 40px;
+  line-height: 30px;
+  color: #999;
+  font-size: 14px;
+}
+footer li a:hover {
+  color: #aeaeae;
+}
+footer li a.twitter { background-position: 0 -40px }
+footer li a.facebook { background-position: 0 -68px }
+footer li a.email { background-position: 0 -94px }
+
+/* Posts *****************************************************************/
+
+.post h1, h2, h3 {
+  font-weight: bold;
+  clear: both;
+}
+.post h1 {
+  font-size: 2em;
+  line-height: 1em;
+}
+.post h2 {
+  font-size: 1.375em;
+  line-height: 1.0909em;
+}
+.post h3 {
+  font-size: 1.25em;
+  line-height: 1.2em;
+}
+
+/* lists */
+.post ul, ol {
+  margin-bottom: 24px;
+}
+.post ul {
+  list-style: square outside;
+}
+.post ul ul,
+.post ol ol {
+  margin: 0 0 0 60px;
+}
+
+/* quotes */
+.post blockquote {
+  margin: 0 60px 0 45px;
+  border-left: 5px solid #ccc;
+  padding-left: 10px;
+  text-indent: -0.4em;
+}
+.post blockquote:before,
+.post blockquote:after,
+.post q:before,
+.post q:after {content: ''; content: none;}
+
+.post blockquote b {
+  display: block;
+  text-indent: 0;
+}
+
+/* links */
+.post a {
+  color: #0d759c;
+}
+.post a:hover {
+  text-decoration: underline;
+}
+.post a:visited {
+  color: #006084;
+}
+
+/* Home *****************************************************************/
+
+body.home #intro {
+  background: #222 url('../img/home/intro_bg.jpg') 86% center no-repeat;
+}
+body.home #intro .container {
+  color: #ebebeb;
+  padding-bottom: 3em;
+}
+body.home #intro h1 {
+  font-size: 30px;
+}
+body.home #intro h1,
+body.home #intro p {
+  padding-right: 700px;
+}
+body.home #call-for-proposals,
+body.home .block,
+body.home #sponsors {
+  padding: 3em 0;
+  color: #fff;
+}
+body.home .block .container {
+  position: relative;
+}
+body.home .block aside {
+  position: absolute;
+  top: 5px;
+  right: 0;
+}
+body.home .block aside .btn {
+  margin-left: 20px;
+}
+body.home .block h1.primary {
+  text-transform: uppercase;
+}
+body.home #call-for-proposals {
+  background: #d31900 url('../img/home/cfp_bg.png') center center no-repeat;
+  text-align: center;
+}
+body.home #when-where {
+  background-color: #ec6d12;
+  overflow: auto;
+}
+body.home #when-where .info {
+  float: left;
+  width: 45%;
+}
+body.home #when-where .info .directions a {
+  color: #fff;
+  background: transparent url('../img/link_bg.png') left 3px no-repeat;
+  padding-left: 17px;
+}
+body.home #when-where .info img {
+  margin-top: 24px;
+  border: 5px solid #fff;
+}
+body.home #when-where iframe {
+  width: 50%;
+  float: right;
+  padding: 10px;
+  background-color: #fff;
+  min-height: 290px;
+}
+body.home #blog {
+  background-color: #2b8fb5;
+}
+body.home #blog article {
+  text-align: center;
+}
+body.home #blog article h1 {
+  margin-bottom: 24px;
+}
+body.home #blog article a {
+  color: #fff;
+}
+body.home #blog article a.read-more {
+  background: transparent url('../img/link_bg.png') left 3px no-repeat;
+  padding-left: 17px;
+  font-weight: bold;
+}
+body.home #last-year-edition {
+  background-color: #222;
+}
+body.home #last-year-edition aside {
+  line-height: 48px;
+}
+body.home #last-year-edition li {
+  float: left;
+  width: 20%;
+  height: 200px;
+  overflow: hidden;
+}
+body.home #last-year-edition li img {
+  height: 200px;
+}
+body.home #last-year-edition li:hover {
+  cursor: pointer;
+  position: relative;
+  overflow: visible;
+  z-index: 99999;
+}
+body.home #last-year-edition li:hover img {
+  position: absolute;
+  top: -20%;
+  left: -20%;
+  height: 250px;
+  border: 20px solid rgba(0,0,0,0.6)
+}
+body.home #sponsors {
+  background-color: #088057;
+}
+body.home #sponsors .support {
+  text-align: center;
+}
+
+/* Blog *****************************************************************/
+body.blog .post {
+  padding: 60px 0;
+  min-height: 265px;
+}
+
+/* Media Queries *****************************************************************/
+
+@media screen and (max-width: 1070px) {
+  body.home #intro {
+    background: #222;
+  }
+  body.home #intro h1,
+  body.home #intro p {
+    padding: 0;
+    text-align: center;
+  }
+  body.home #intro .btn {
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  nav .logo {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    width: 170px;
+  }
+  nav ul {
+    display: none;
+  }
+  body.home .block aside {
+    position: relative;
+    clear: both;
+    border-top: 1px solid rgba(0,0,0,0.05);
+    overflow: auto;
+    padding-top: 40px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  body.home .block aside .btn {
+    margin: 0;
+  }
+  body.home #when-where .info,
+  body.home #when-where iframe {
+    width: 100%;
+  }
+  body.home #when-where .info {
+    text-align: center;
+    margin-bottom: 34px;
+  }
+  body.home #when-where .info img {
+    display: none;
+  }
+  footer .container {
+    background: none;
+  }
+  footer ul {
+    position: relative;
+  }
+}

@@ -1,0 +1,117 @@
+---
+layout: default
+body_class: 'home'
+---
+
+<section id="intro">
+    <div class="container">
+        <h1 class="primary">Regional conference about Ruby, Rails and Agile</h1>
+        <p>March 21-22, 2013. Montevideo, Uruguay</p>
+        <a href="#" class="btn secondary">Register</a>
+    </div>
+</section>
+
+<section id="call-for-proposals">
+    <div class="container">
+        <h1 class="primary">Call for Proposals are now open</h1>
+        <p>We will be hosting 2 full days of talks, totaling 24+ talks in all. So become part of this year's speaker schedule.</p>
+        <a href="#" class="btn primary">Submit your proposal</a>
+    </div>
+</section>
+
+<section id="when-where" class="block">
+    <div class="container">
+        <h1 class="primary">When and where</h1>
+
+        <div class="info">
+            <p>March 21st and 22nd at Torre de las Telecomunicaciones auditorium, Montevideo, Uruguay. These will be two intensive days of learning and exchange with the attendees and speakers, so mark your calendars!</p>
+
+            <ul class="directions">
+                <li><a href="#">How to get there from the airport</a></li>
+                <li><a href="#">How to get there from Tres Cruces bus terminal</a></li>
+            </ul>
+
+            <img src="/media/img/home/auditorium.jpg" />
+        </div>
+
+        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="//maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;source=embed&amp;msa=0&amp;msid=114189880581873191413.00049039c94fc2d39375a&amp;ll=-34.899166,-56.19421&amp;spn=0.023934,0.034676&amp;z=14&amp;output=embed"></iframe>
+
+        <aside class="where-to-stay">
+            <h1>Don't have where to stay? <a href="#" class="btn primary">Check out hotels/hostels</a></h1>
+        </aside>
+    </div>
+</section>
+
+<section id="blog" class="block">
+    <div class="container">
+        <h1 class="primary">Blog/News</h1>
+        {% for post in site.posts limit:3 %}
+        <article class="post">
+          <h1><a href="{{post.url}}">{{ post.title }}</a></h1>
+          {{ post.content }}
+          <a href="{{post.url}}" class="read-more">Continue reading</a>
+        </article>
+        {% endfor %}
+
+        <aside>
+            <h1>Hungry for more? <a href="/blog" class="btn primary">Visit our blog</a></h1>
+        </aside>
+    </div>
+</section>
+
+<section id="last-year-edition" class="block">
+    <div class="container">
+        <h1 class="primary">2011 Edition</h1>
+        <ul>
+            <li><img src="/media/img/content/2011_edition/alvaro.jpg" alt="alvaro"></li>
+            <li><img src="/media/img/content/2011_edition/angry.jpg" alt="angry baby"></li>
+            <li><img src="/media/img/content/2011_edition/crowd.jpg" alt="crowd"></li>
+            <li><img src="/media/img/content/2011_edition/cupcakes.jpg" alt="cupcakes"></li>
+            <li><img src="/media/img/content/2011_edition/entrance.jpg" alt="Entrance"></li>
+            <li><img src="/media/img/content/2011_edition/entrance2.jpg" alt="Entrance"></li>
+            <li><img src="/media/img/content/2011_edition/evan-diego.jpg" alt="Evan and Diego"></li>
+            <li><img src="/media/img/content/2011_edition/fitness.jpg" alt="Fitness"></li>
+            <li><img src="/media/img/content/2011_edition/full_house.jpg" alt="Full house"></li>
+            <li><img src="/media/img/content/2011_edition/fuuu.jpg" alt="Fuuu"></li>
+            <li><img src="/media/img/content/2011_edition/gaba.jpg" alt="Gaba"></li>
+            <li><img src="/media/img/content/2011_edition/gift.jpg" alt="Gift"></li>
+            <li><img src="/media/img/content/2011_edition/github.jpg" alt="Github"></li>
+            <li><img src="/media/img/content/2011_edition/hall.jpg" alt="Hall"></li>
+            <li><img src="/media/img/content/2011_edition/ian3.jpg" alt="Ian"></li>
+            <li><img src="/media/img/content/2011_edition/konstantine.jpg" alt="Konstantine"></li>
+            <li><img src="/media/img/content/2011_edition/mate.jpg" alt="Mate"></li>
+            <li><img src="/media/img/content/2011_edition/octocat.jpg" alt="Octocat"></li>
+            <li><img src="/media/img/content/2011_edition/perspective.jpg" alt="Perspective"></li>
+            <li><img src="/media/img/content/2011_edition/ian1.jpg" alt="Ian"></li>
+            <li><img src="/media/img/content/2011_edition/ready.jpg" alt="Ready"></li>
+            <li><img src="/media/img/content/2011_edition/sexy_time.jpg" alt="Sexy time"></li>
+            <li><img src="/media/img/content/2011_edition/perspective2.jpg" alt="Perspective"></li>
+            <li><img src="/media/img/content/2011_edition/ian2.jpg" alt="Ian"></li>
+            <li><img src="/media/img/content/2011_edition/soccer.jpg" alt="Soccer"></li>
+            <li><img src="/media/img/content/2011_edition/stephen_anderson.jpg" alt="Stephen"></li>
+            <li><img src="/media/img/content/2011_edition/sunbathing.jpg" alt="Sunbathing"></li>
+            <li><img src="/media/img/content/2011_edition/thais.jpg" alt="Thais"></li>
+            <li><img src="/media/img/content/2011_edition/tenderlove.jpg" alt="Tenderlove"></li>
+            <li><img src="/media/img/content/2011_edition/tom.jpg" alt="Tom"></li>
+        </ul>
+
+        <div class="clearfix"></div>
+
+        <aside>
+            <h1>350 attendees, 8 talks, 16 hours, 1 place</h1>
+        </aside>
+    </div>
+</section>
+
+<section id="sponsors">
+    <div class="container">
+        <h1 class="primary hidden">Sponsors</h1>
+        <ul class="hidden">
+            <li><img src="" alt="Github"></li>
+            <li><img src="" alt="Cubox"></li>
+            <li><img src="" alt="Engine Yard"></li>
+            <li><img src="" alt="Heroku"></li>
+        </ul>
+        <p class="support">Support RubyConf Uruguay <a href="#" class="btn primary">View Sponsorship Packages</a></p>
+    </div>
+</section>
