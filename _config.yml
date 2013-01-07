@@ -1,13 +1,10 @@
 markdown: rdiscount
 pygments: false
 permalink: /blog/:title
-auto: true
 exclude: ['.rvmrc']
-
 name: 'RubyConf Uruguay'
 production_url: 'rubyconfuruguay.org'
-google_analytics_id: 'UA-XXX-XX'
-
+google_analytics_id: 'UA-17597818-1'
 author:
   name: 'Voluntarios de rubysur y neo'
-  email: 'info@rbyconfuruguay.org'
+  email: 'info@rubyconfuruguay.org'
