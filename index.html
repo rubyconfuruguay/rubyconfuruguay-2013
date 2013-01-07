@@ -37,19 +37,19 @@ body_class: 'home'
         <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="//maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;source=embed&amp;msa=0&amp;msid=114189880581873191413.00049039c94fc2d39375a&amp;ll=-34.899166,-56.19421&amp;spn=0.023934,0.034676&amp;z=14&amp;output=embed"></iframe>
 
         <aside class="where-to-stay">
-            <h1>Don't have where to stay? <a href="#" class="btn primary">Check out hotels/hostels</a></h1>
+            <h1>Don't have a place to stay? <a href="#" class="btn primary">Check out hotels/hostels</a></h1>
         </aside>
     </div>
 </section>
 
 <section id="blog" class="block">
     <div class="container">
-        <h1 class="primary">Blog/News</h1>
+        <h1 class="primary">News</h1>
         {% for post in site.posts limit:3 %}
         <article class="post">
           <h1><a href="{{post.url}}">{{ post.title }}</a></h1>
           {{ post.content }}
-          <a href="{{post.url}}" class="read-more">Continue reading</a>
+          <a href="{{post.url}}" class="read-more">Continue reading</a>.
         </article>
         {% endfor %}
 
