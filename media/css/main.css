@@ -131,23 +131,50 @@ footer .container {
   background: transparent url('../img/footer_bg.png') left center no-repeat;
   min-height: 76px;
 }
+footer p {
+  position: absolute;
+  left: 182px;
+  top: 75px;
+  font-size: 14px;
+  color: #6A6A6A;
+}
+footer p {
+  position: absolute;
+  left: 200px;
+  top: 70px;
+  font-size: 14px;
+  color: #6A6A6A;
+}
+footer p a {
+  color: #999;
+}
+footer p a:hover {
+  color: #c6c6c6;
+}
 footer ul {
   position: absolute;
+  top: 72px;
   right: 0;
+}
+footer li {
+  float: left;
+  margin-left: 10px;
 }
 footer li a {
   background: transparent url('../img/sprites.png') left top no-repeat;
-  padding-left: 40px;
-  line-height: 30px;
-  color: #999;
-  font-size: 14px;
+  display: block;
+  width: 22px;
+  height: 22px;
 }
-footer li a:hover {
-  color: #aeaeae;
+footer li a span {
+  display: none;
 }
 footer li a.twitter { background-position: 0 -40px }
 footer li a.facebook { background-position: 0 -68px }
 footer li a.email { background-position: 0 -94px }
+footer li a.twitter:hover { background-position: -22px -40px }
+footer li a.facebook:hover { background-position: -22px -68px }
+footer li a.email:hover { background-position: -22px -94px }
 
 /* Posts *****************************************************************/
 
