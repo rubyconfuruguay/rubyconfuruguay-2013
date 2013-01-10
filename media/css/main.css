@@ -200,11 +200,14 @@ footer li a.email:hover { background-position: -22px -94px }
   margin-bottom: 24px;
 }
 .post ul {
-  list-style: square outside;
+  list-style: square inside;
 }
 .post ul ul,
 .post ol ol {
   margin: 0 0 0 60px;
+}
+.post li {
+  line-height: 1.5em;
 }
 
 /* quotes */
@@ -357,6 +360,10 @@ body.home #sponsors p:first-of-type {
 body.blog .post {
   padding: 60px 0;
   min-height: 265px;
+}
+body.blog .post h1,
+body.blog .post h2 {
+  margin: 0 0 1em 0;
 }
 
 /* Media Queries *****************************************************************/
