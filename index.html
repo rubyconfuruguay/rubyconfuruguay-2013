@@ -48,18 +48,18 @@ body_class: 'home'
 <section id="news" class="block">
     <div class="container">
         <h1 class="primary">News</h1>
-        {% for post in site.posts limit:6 %}
+        {% for post in site.posts limit:2 %}
             {% if post.lang == 'en'  %}
                 <article class="post">
                   <h1 class="primary"><a href="{{post.url}}">{{ post.title }}</a></h1>
-                  {{ post.content }}
-                  <a href="{{post.url}}" class="read-more">Continue reading</a>.
+                  {{ post.excerpt }}
+                  <a href="{{post.url}}" class="read-more">Continue reading</a>
                 </article>
             {% endif %}
         {% endfor %}
 
         <aside>
-            <h1>Hungry for more? <a href="/blog" class="btn primary">Visit our blog</a></h1>
+            <h1>Hungry for more? <a href="/news.html" class="btn primary">Visit our blog</a></h1>
         </aside>
     </div>
 </section>

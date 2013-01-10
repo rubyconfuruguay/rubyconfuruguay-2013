@@ -260,13 +260,13 @@ footer li a.email:hover { background-position: -22px -94px }
 
 /* links */
 .post a {
-  color: #0d759c;
+  color: #2b8fb5;
 }
 .post a:hover {
   text-decoration: underline;
 }
 .post a:visited {
-  color: #006084;
+  color: #452bb5;
 }
 
 /* Home *****************************************************************/
@@ -388,13 +388,54 @@ body.home #sponsors p:first-of-type {
 }
 
 /* Blog *****************************************************************/
-body.blog .post {
+body.news .primary,
+body.news .secondary,
+body.news .metadata {
+  text-align: center;
+}
+body.news h1.primary {
+  font-size: 40px;
+}
+body.news h1.secondary {
+  margin-bottom: 0.5em;
+  font-size: 30px;
+  color: #555;
+}
+body.news h1.secondary a {
+  color: #555;
+}
+body.news h1.secondary a:hover {
+  text-decoration: none;
+  color: #333;
+}
+body.news .metadata {
+  color: #848484;
+  font-size: 14px;
+  margin-bottom: 3em;
+}
+body.news .post {
+  font-size: 18px;
   padding: 60px 0;
   min-height: 265px;
+  max-width: 55em;
+  line-height: 2.2em;
 }
-body.blog .post h1,
-body.blog .post h2 {
+body.news .post h2,
+body.news .post h3 {
   margin: 0 0 1em 0;
+}
+body.news .post img {
+  max-width: 100%;
+}
+body.news .listing {
+  padding-top: 2em;
+}
+body.news .listing .secondary,
+body.news .listing .metadata {
+  text-align: left;
+}
+body.news .listing .metadata {
+  margin-bottom: 1em;
 }
 
 /* Media Queries *****************************************************************/

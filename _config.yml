@@ -1,6 +1,6 @@
 markdown: rdiscount
 pygments: false
-permalink: /blog/:title
+permalink: /news/:title
 exclude: ['.rvmrc']
 name: 'RubyConf Uruguay 2013'
 production_url: 'rubyconfuruguay.org'

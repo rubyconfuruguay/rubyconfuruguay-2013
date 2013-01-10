@@ -1,0 +1,16 @@
+---
+layout: post
+body_class: news
+title: News
+---
+
+{% for post in site.posts %}
+    {% if post.lang == 'en'  %}
+        <article class="post listing">
+            <h1 class="secondary"><a href="{{post.url}}">{{ post.title }}</a></h1>
+            <p class="metadata">Posted on <strong>{{ post.date | date: "%B %e" }}</strong> by <strong>{{ post.author }}</strong></p>
+            {{ post.excerpt }}
+            <a href="{{post.url}}" class="read-more">Continue reading</a>
+        </article>
+    {% endif %}
+{% endfor %}

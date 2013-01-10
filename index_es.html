@@ -46,18 +46,18 @@ body_class: 'home'
 <section id="news" class="block">
     <div class="container">
         <h1 class="primary">Noticias</h1>
-        {% for post in site.posts limit:6 %}
+        {% for post in site.posts limit:2 %}
             {% if post.lang == 'es'  %}
                 <article class="post">
                   <h1 class="primary"><a href="{{post.url}}">{{ post.title }}</a></h1>
-                  {{ post.content }}
+                  {{ post.excerpt }}
                   <a href="{{post.url}}" class="read-more">Contin&uacute;a leyendo</a>.
                 </article>
             {% endif %}
         {% endfor %}
 
         <aside>
-            <h1>Quieres m&aacute;s? <a href="/blog" class="btn primary">Visita nuestro blog</a></h1>
+            <h1>Quieres m&aacute;s? <a href="/news_es.html" class="btn primary">Visita nuestro blog</a></h1>
         </aside>
     </div>
 </section>
