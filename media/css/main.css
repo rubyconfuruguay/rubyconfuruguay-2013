@@ -40,15 +40,46 @@ nav ul li a:hover {
   color: #fff;
 }
 nav ul li.register {
-  margin-left: 30px;
+  margin-left: 15px;
 }
 nav ul li.register a {
   background-color: #2b8fb5;
   color: #fff;
+  width: 110px;
+  text-align: center;
 }
 nav ul li.register a:hover {
   background-color: #2384a9;
 }
+
+/* Language picker */
+.lang {
+  margin: 20px 0 20px 10px;
+}
+.lang li {
+  clear: both;
+  margin-bottom: 4px;
+}
+.lang a {
+  background: transparent url('../img/sprites.png') left top no-repeat;
+  display: block;
+  width: 22px;
+  height: 16px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #313131;
+}
+.lang a span {
+  display: none;
+}
+.lang a:hover,
+.lang a.active {
+  border-color: #565656;
+}
+.lang a.en {background-position: 0 0}
+.lang a.es {background-position: 0 -16px}
+.lang a.en:hover, .lang a.en.active {background-position: -22px 0}
+.lang a.es:hover, .lang a.es.active {background-position: -22px -16px}
 
 /* Headings */
 h1.primary,
@@ -99,7 +130,7 @@ em {font-style: italic;}
 }
 .btn.secondary:hover {
   color: #fff;
-  background-color: #2584a8;
+  background-color: #267796;
 }
 .btn.tertiary {
   color: #333;
