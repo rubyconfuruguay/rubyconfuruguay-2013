@@ -31,7 +31,7 @@ nav ul li {
 }
 nav ul li a {
   line-height: 35px;
-  color: #f0f0f0;
+  color: #cecece;
   display: inline-block;
   padding: 0 10px;
   margin: 20px 0;
@@ -39,26 +39,25 @@ nav ul li a {
 nav ul li a:hover {
   color: #fff;
 }
-nav ul li.register {
+nav .register {
   margin-left: 15px;
 }
-nav ul li.register a {
+nav .register a {
   background-color: #2b8fb5;
   color: #fff;
   width: 110px;
   text-align: center;
 }
-nav ul li.register a:hover {
+nav .register a:hover {
   background-color: #2384a9;
 }
 
 /* Language picker */
 .lang {
-  margin: 20px 0 20px 10px;
+  margin: 19px 0 19px 10px;
 }
 .lang li {
   clear: both;
-  margin-bottom: 4px;
 }
 .lang a {
   background: transparent url('../img/sprites.png') left top no-repeat;
@@ -91,6 +90,7 @@ h1.secondary {
 h1.primary {
   font-size: 40px;
   margin-bottom: 0.5em;
+  text-shadow: 0 2px rgba(0,0,0,0.2);
 }
 h1.secondary {
   font-size: 20px;
@@ -155,6 +155,7 @@ a {
 /* Footer */
 footer {
   background-color: #222;
+  border-bottom: 1px solid #111;
 }
 footer .container {
   position: relative;
@@ -270,9 +271,12 @@ footer li a.email:hover { background-position: -22px -94px }
 }
 
 /* Home *****************************************************************/
-
+body.home section {
+  border-bottom: 1px solid #000;
+}
 body.home #intro {
   background: #222 url('../img/home/intro_bg.jpg') 86% center no-repeat;
+  border-color: #111;
 }
 body.home #intro .container {
   color: #ebebeb;
@@ -304,14 +308,18 @@ body.home .block aside .btn {
 }
 body.home .block h1.primary {
   text-transform: uppercase;
+  font-weight: 700;
+  font-size: 32px;
 }
 body.home #call-for-proposals {
   background: #d31900 url('../img/home/cfp_bg.png') center center no-repeat;
   text-align: center;
+  border-color: #9f1300;
 }
 body.home #when-where {
   background-color: #ec6d12;
   overflow: auto;
+  border-color: #cc5906;
 }
 body.home #when-where .info {
   float: left;
@@ -335,6 +343,7 @@ body.home #when-where iframe {
 }
 body.home #news {
   background-color: #2b8fb5;
+  border-color: #0d5f7e;
 }
 body.home #news article {
   text-align: center;
@@ -353,6 +362,7 @@ body.home #news article a.read-more {
 }
 body.home #last-year-edition {
   background-color: #222;
+  border-color: #111;
 }
 body.home #last-year-edition aside {
   line-height: 48px;
@@ -382,6 +392,7 @@ body.home #last-year-edition li:hover img {
 body.home #sponsors {
   background-color: #088057;
   text-align: center;
+  border-color: #00603f;
 }
 body.home #sponsors p:first-of-type {
   margin-bottom: 0;
@@ -440,7 +451,13 @@ body.news .listing .metadata {
 
 /* Media Queries *****************************************************************/
 
-@media screen and (max-width: 1070px) {
+@media screen and (min-width: 1600px) {
+  .container {
+    width: 1330px;
+  }
+}
+
+@media screen and (max-width: 1320px) {
   body.home #intro {
     background: #222;
   }
@@ -457,15 +474,47 @@ body.news .listing .metadata {
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1050px) {
+  nav {
+    padding-bottom: 2em;
+  }
   nav .logo {
     float: none;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 3em auto;
     width: 170px;
   }
   nav ul {
-    display: none;
+    float: none;
+    text-align: center;
+  }
+  nav ul li {
+    display: inline-block;
+    float: none;
+  }
+  nav ul li a {
+    margin: 0;
+  }
+  nav .register {
+    margin-left: 0;
+  }
+  nav .register a {
+    background: none;
+    color: #cecece;
+    width: auto;
+  }
+  nav .register a:hover {
+    background: none;
+    color: #fff;
+  }
+  nav .lang {
+    position: absolute;
+    top: 0;
+    right: 20px;
+  }
+  nav .lang li {
+    clear: none;
+    margin-left: 2px;
   }
   body.home .block aside {
     position: relative;
@@ -491,9 +540,29 @@ body.news .listing .metadata {
     display: none;
   }
   footer .container {
-    background: none;
+    background-position: center 20px;
+    padding-top: 125px;
+  }
+  footer p {
+    position: static;
+    text-align: center;
   }
   footer ul {
-    position: relative;
+    position: static;
+    clear: both;
+    width: 100px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 655px) {
+  body.home #last-year-edition li {
+    width: 33.33%;
+    height: 135px;
+  }
+  body.home #last-year-edition li img {
+    height: 135px;
+  }
+  body.home #last-year-edition li:hover img {
+    height: 180px;
   }
 }
