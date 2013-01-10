@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Hello World 1
+title: Hello ES
+lang: es
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu odio augue. Mauris risus lacus, iaculis et laoreet ut, egestas sed velit. Nulla facilisi. Duis cursus adipiscing faucibus. Nulla at sapien eu dui lobortis ultrices. Sed at urna eget tellus pharetra imperdiet mollis quis urna.

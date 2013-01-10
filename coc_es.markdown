@@ -1,9 +1,8 @@
 ---
 layout: post
-body_class: 'coc'
+title: C&oacute;digo de Conducta
 ---
 
-# C&oacute;digo de Conducta
 RubyConf Uruguay es una conferencia que tiene como objetivo el ayudar a generar redes y colaboraci&oacute;n en nuestra comunidad de desarrolladores.
 Consideramos importante la participaci&oacute;n de cada miembro de la comunidad y queremos que todos los asistentes tengan un experiencia disfrutable y productiva. De acuerdo con esto, se espera que todos los asistentes muestren respeto y cortes&iacute;a a los otros asistentes en la conferencia y en todos los eventos de la conferencia.
 

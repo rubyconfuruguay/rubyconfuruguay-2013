@@ -1,9 +1,7 @@
 ---
 layout: post
-body_class: 'coc'
+title: Code of Conduct
 ---
-
-# Code of Conduct
 
 RubyConf Uruguay is a community conference intended for networking and collaboration in the developer community.
 We value the participation of each member of the community and want all attendees to have an enjoyable and fulfilling experience.Accordingly, all attendees are expected to show respect and courtesy to other attendees throughout the conference and at all conference events.
