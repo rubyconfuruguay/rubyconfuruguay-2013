@@ -8,3 +8,4 @@ google_analytics_id: 'UA-17597818-1'
 author:
   name: 'Voluntarios de rubysur y neo'
   email: 'info@rubyconfuruguay.org'
+auto: true
