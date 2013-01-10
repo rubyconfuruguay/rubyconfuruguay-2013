@@ -4,7 +4,7 @@ title: Early Bird tickets
 lang: en
 author: Fernando Briano
 ---
-Early Bird tickets **are now [on sale](http://rubyconfuy2013.eventbrite.com/)**. You can [register](http://rubyconfuy2013.eventbrite.com/) now at the really low price of U$S 30. These are a limited batch, so hurry up and get yours!
+Early Bird tickets **are now [on sale](http://rubyconfuy2013.eventbrite.com/)**. You can [register](http://rubyconfuy2013.eventbrite.com/) now at the really low price of U$S 30. This is a limited batch, so hurry up and get yours!
 
 You can pay online with your credit card or offline via RedPagos, a payment system in Uruguay. You must make the deposit in the collective number 35161 to the name "RubyConf Uruguay".
 
