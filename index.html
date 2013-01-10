@@ -47,7 +47,7 @@ body_class: 'home'
         <h1 class="primary">News</h1>
         {% for post in site.posts limit:3 %}
         <article class="post">
-          <h1><a href="{{post.url}}">{{ post.title }}</a></h1>
+          <h1 class="primary"><a href="{{post.url}}">{{ post.title }}</a></h1>
           {{ post.content }}
           <a href="{{post.url}}" class="read-more">Continue reading</a>.
         </article>
@@ -105,16 +105,9 @@ body_class: 'home'
 
 <section id="sponsors">
     <div class="container">
-        <h1 class="primary hidden">Sponsors</h1>
-        <ul class="hidden">
-            <li><img src="" alt="Github"></li>
-            <li><img src="" alt="Cubox"></li>
-            <li><img src="" alt="Engine Yard"></li>
-            <li><img src="" alt="Heroku"></li>
-        </ul>
-        <p class="support">
-          Support RubyConf Uruguay
-          <a href="http://rubyconfuruguay.org/downloads/sponsorship_packages_2013_rubyconf_uy_v3.pdf" class="btn primary">View Sponsorship Packages</a>
-        </p>
+        <h1 class="primary">Join our sponsors</h1>
+        <p>Come and join the most successful spanish speaking ruby event held in South America!</p>
+        <p>Over 300 attendees from all levels of expertise will be there.</p>
+        <p><a href="/downloads/sponsorship_packages_2013_rubyconfuruguay.pdf" class="btn primary">View Sponsorship Packages</a></p>
     </div>
 </section>
