@@ -347,6 +347,11 @@ body.home #news {
 }
 body.home #news article {
   text-align: center;
+  margin-bottom: 50px;
+  line-height: 22px;
+}
+body.home #news article:last-child {
+  margin-bottom: 0;
 }
 body.home #news article h1 {
   margin-bottom: 24px;
@@ -356,9 +361,11 @@ body.home #news article a {
   color: #fff;
 }
 body.home #news article a.read-more {
-  background: transparent url('../img/link_bg.png') left 3px no-repeat;
-  padding-left: 17px;
+  background: transparent url('../img/link_bg.png') left 5px no-repeat;
+  padding-left: 15px;
+  margin-left: 10px;
   font-weight: bold;
+  white-space: nowrap;
 }
 body.home #last-year-edition {
   background-color: #222;
