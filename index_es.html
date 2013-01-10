@@ -1,0 +1,113 @@
+---
+layout: default_es
+body_class: 'home'
+---
+
+<section id="intro">
+    <div class="container">
+        <h1 class="primary">Conferencia regional sobre Ruby, Rails y Agile</h1>
+        <p>21&ndash;22 de Marzo, 2013. Montevideo, Uruguay</p>
+        <a href="#" class="btn secondary">Reg&iacute;strate</a>
+    </div>
+</section>
+
+<section id="call-for-proposals">
+    <div class="container">
+        <h1 class="primary">El llamado a charlas est&aacute; abierto</h1>
+        <p>Vamos a tener 2 d&iacute;as completos de charlas y networking, 20 charlas en total. Forma parte tu tambi&eacute;n!</p>
+        <a href="http://bit.ly/rubyconf-uy-2013-cfp" class="btn primary">Presenta tu propuesta</a>
+    </div>
+</section>
+
+<section id="when-where" class="block">
+    <div class="container">
+        <h1 class="primary">Cu&aacute;ndo y d&oacute;nde</h1>
+
+        <div class="info">
+            <p>21 y 22 de marzo en el auditorio de la Torre de las Telecomunicaciones, Montevideo, Uruguay. Ser&aacute;n dos d&iacute;as intensos de aprendizaje e intercambio de experiencias entre los asistenes y oradores. No olvides reservar esos d&iacute;as en tu calendario!</p>
+
+            <ul class="directions hidden">
+                <li><a href="#">C&oacute;mo llegar desde el aeropuerto</a></li>
+                <li><a href="#">C&oacute;mo llegar desde la terminal de tres cruces</a></li>
+            </ul>
+
+            <img src="/media/img/home/auditorium.jpg" />
+        </div>
+
+        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="//maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;source=embed&amp;msa=0&amp;msid=114189880581873191413.00049039c94fc2d39375a&amp;ll=-34.899166,-56.19421&amp;spn=0.023934,0.034676&amp;z=14&amp;output=embed"></iframe>
+
+        <aside class="where-to-stay hidden">
+            <h1>No tienes donde quedarte? <a href="#" class="btn primary">Mira hotels/hostels recomendados</a></h1>
+        </aside>
+    </div>
+</section>
+
+<section id="news" class="block">
+    <div class="container">
+        <h1 class="primary">Noticias</h1>
+        {% for post in site.posts limit:3 %}
+        <article class="post">
+          <h1 class="primary"><a href="{{post.url}}">{{ post.title }}</a></h1>
+          {{ post.content }}
+          <a href="{{post.url}}" class="read-more">Contin&uacute;a leyendo</a>.
+        </article>
+        {% endfor %}
+
+        <aside>
+            <h1>Quieres m&aacute;s? <a href="/blog" class="btn primary">Visita nuestro blog</a></h1>
+        </aside>
+    </div>
+</section>
+
+<section id="last-year-edition" class="block">
+    <div class="container">
+        <h1 class="primary">Edici&oacute;n 2011</h1>
+        <ul>
+            <li><img src="/media/img/content/2011_edition/alvaro.jpg" alt="alvaro"></li>
+            <li><img src="/media/img/content/2011_edition/angry.jpg" alt="angry baby"></li>
+            <li><img src="/media/img/content/2011_edition/crowd.jpg" alt="crowd"></li>
+            <li><img src="/media/img/content/2011_edition/cupcakes.jpg" alt="cupcakes"></li>
+            <li><img src="/media/img/content/2011_edition/entrance.jpg" alt="Entrance"></li>
+            <li><img src="/media/img/content/2011_edition/entrance2.jpg" alt="Entrance"></li>
+            <li><img src="/media/img/content/2011_edition/evan-diego.jpg" alt="Evan and Diego"></li>
+            <li><img src="/media/img/content/2011_edition/fitness.jpg" alt="Fitness"></li>
+            <li><img src="/media/img/content/2011_edition/full_house.jpg" alt="Full house"></li>
+            <li><img src="/media/img/content/2011_edition/fuuu.jpg" alt="Fuuu"></li>
+            <li><img src="/media/img/content/2011_edition/gaba.jpg" alt="Gaba"></li>
+            <li><img src="/media/img/content/2011_edition/gift.jpg" alt="Gift"></li>
+            <li><img src="/media/img/content/2011_edition/github.jpg" alt="Github"></li>
+            <li><img src="/media/img/content/2011_edition/hall.jpg" alt="Hall"></li>
+            <li><img src="/media/img/content/2011_edition/ian3.jpg" alt="Ian"></li>
+            <li><img src="/media/img/content/2011_edition/konstantine.jpg" alt="Konstantine"></li>
+            <li><img src="/media/img/content/2011_edition/mate.jpg" alt="Mate"></li>
+            <li><img src="/media/img/content/2011_edition/octocat.jpg" alt="Octocat"></li>
+            <li><img src="/media/img/content/2011_edition/perspective.jpg" alt="Perspective"></li>
+            <li><img src="/media/img/content/2011_edition/ian1.jpg" alt="Ian"></li>
+            <li><img src="/media/img/content/2011_edition/ready.jpg" alt="Ready"></li>
+            <li><img src="/media/img/content/2011_edition/sexy_time.jpg" alt="Sexy time"></li>
+            <li><img src="/media/img/content/2011_edition/perspective2.jpg" alt="Perspective"></li>
+            <li><img src="/media/img/content/2011_edition/ian2.jpg" alt="Ian"></li>
+            <li><img src="/media/img/content/2011_edition/soccer.jpg" alt="Soccer"></li>
+            <li><img src="/media/img/content/2011_edition/stephen_anderson.jpg" alt="Stephen"></li>
+            <li><img src="/media/img/content/2011_edition/sunbathing.jpg" alt="Sunbathing"></li>
+            <li><img src="/media/img/content/2011_edition/thais.jpg" alt="Thais"></li>
+            <li><img src="/media/img/content/2011_edition/tenderlove.jpg" alt="Tenderlove"></li>
+            <li><img src="/media/img/content/2011_edition/tom.jpg" alt="Tom"></li>
+        </ul>
+
+        <div class="clearfix"></div>
+
+        <aside>
+            <h1>260 participantes, 25 charlas, 16 horas, 1 lugar</h1>
+        </aside>
+    </div>
+</section>
+
+<section id="sponsors">
+    <div class="container">
+        <h1 class="primary">Sumate a nuestros sponsors</h1>
+        <p>Ven y &uacute;nete al evento de ruby m&aacute;s exitoso de sudam&eacute;rica!</p>
+        <p>M&aacute;s de 300 participantes de todos los niveles estar&aacute;n all&iacute; este a&ntilde;o</p>
+        <p><a href="/downloads/sponsorship_packages_2013_rubyconfuruguay.pdf" class="btn primary">Ver Planes para Sponsors</a></p>
+    </div>
+</section>
