@@ -6,7 +6,7 @@ body_class: 'home'
 <section id="intro">
     <div class="container">
         <h1 class="primary">Conferencia regional sobre Ruby, Rails y Agile</h1>
-        <p>21&ndash;22 de Marzo, 2013. Montevideo, Uruguay</p>
+        <p>22&ndash;23 de Marzo, 2013. Montevideo, Uruguay</p>
         <p>RubyConf Uruguay est&aacute; orientado a desarrolladores que quieran aprender o actualizarse en tecnolog&iacute;as como Ruby, Ruby on Rails, Sinatra, Testing, SCRUM, JavaScript, SQL vs NoSQL.</p>
         <a href="http://rubyconfuy2013.eventbrite.com/" class="btn secondary">Reg&iacute;strate</a>
     </div>
@@ -25,7 +25,7 @@ body_class: 'home'
         <h1 class="primary">Cu&aacute;ndo y d&oacute;nde</h1>
 
         <div class="info">
-            <p>21 y 22 de marzo en el auditorio de la Torre de las Telecomunicaciones, Montevideo, Uruguay. Ser&aacute;n dos d&iacute;as intensos de aprendizaje e intercambio de experiencias entre los asistenes y oradores. No olvides reservar esos d&iacute;as en tu calendario!</p>
+            <p>22 y 23 de marzo en el auditorio de la Torre de las Telecomunicaciones, Montevideo, Uruguay. Ser&aacute;n dos d&iacute;as intensos de aprendizaje e intercambio de experiencias entre los asistenes y oradores. No olvides reservar esos d&iacute;as en tu calendario!</p>
 
             <ul class="directions hidden">
                 <li><a href="#">C&oacute;mo llegar desde el aeropuerto</a></li>
@@ -46,7 +46,7 @@ body_class: 'home'
 <section id="news" class="block">
     <div class="container">
         <h1 class="primary">Noticias</h1>
-        {% for post in site.posts limit:3 %}
+        {% for post in site.posts limit:2 %}
             {% if post.lang == 'es'  %}
                 <article class="post">
                   <h1 class="primary"><a href="{{post.url}}">{{ post.title }}</a></h1>

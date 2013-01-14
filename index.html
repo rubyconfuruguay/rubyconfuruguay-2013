@@ -6,7 +6,7 @@ body_class: 'home'
 <section id="intro">
     <div class="container">
         <h1 class="primary">Regional conference about Ruby, Rails and Agile</h1>
-        <p><strong>March 21&ndash;22, 2013. Montevideo, Uruguay</strong></p>
+        <p><strong>March 22&ndash;23, 2013. Montevideo, Uruguay</strong></p>
 
         <p>RubyConf Uruguay will be a single-track conference aimed at developers who want to learn about or get up-to-date on topics such as Ruby, Ruby on Rails, Sinatra, Testing, SCRUM, JavaScript, SQL vs NoSQL, and more.</p>
 
@@ -27,7 +27,7 @@ body_class: 'home'
         <h1 class="primary">When and where</h1>
 
         <div class="info">
-            <p>March 21st and 22nd at Torre de las Telecomunicaciones auditorium, Montevideo, Uruguay. These will be two intensive days of learning and exchange with the attendees and speakers, so mark your calendars!</p>
+            <p>March 22nd and 23rd at Torre de las Telecomunicaciones auditorium, Montevideo, Uruguay. These will be two intensive days of learning and exchange with the attendees and speakers, so mark your calendars!</p>
 
             <ul class="directions hidden">
                 <li><a href="#">How to get there from the airport</a></li>
@@ -48,7 +48,7 @@ body_class: 'home'
 <section id="news" class="block">
     <div class="container">
         <h1 class="primary">News</h1>
-        {% for post in site.posts limit:3 %}
+        {% for post in site.posts limit:2 %}
             {% if post.lang == 'en'  %}
                 <article class="post">
                   <h1 class="primary"><a href="{{post.url}}">{{ post.title }}</a></h1>
