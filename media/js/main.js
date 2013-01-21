@@ -1,1 +1,3 @@
-$("a[href^=#]").smoothScroll({ easing: "swing" });
+jQuery(function($) {
+  $("a[href^=#]").smoothScroll({ easing: "swing" });
+});
