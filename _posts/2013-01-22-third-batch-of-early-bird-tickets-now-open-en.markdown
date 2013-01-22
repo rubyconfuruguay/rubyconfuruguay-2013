@@ -6,4 +6,4 @@ author: Fernando Briano
 ---
 Today the third batch of Early Bird tickets go live. These tickets cost U$S 40, and we have only 35 in stock.
 
-Take advantage of the Early Bird tickets and buy soon. They **final price** will be of **U$S 80**, so they are now 50% of their final price. [Buy your tickets now](http://rubyconfuy2013.eventbrite.com/).
+Take advantage of the Early Bird tickets and buy soon. Their **final price** will be of **U$S 80**, so they are now 50% of their final price. [Buy your tickets now](http://rubyconfuy2013.eventbrite.com/).
