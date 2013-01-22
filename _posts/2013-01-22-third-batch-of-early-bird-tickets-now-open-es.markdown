@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Third batch of Early Bird Tickets now open
+title: Tercera tanda de entradas Early Bird abierta
 lang: es
 author: Fernando Briano
 ---
