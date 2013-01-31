@@ -1,14 +1,12 @@
 ---
 layout: post
-title: Lodging and transportation discounts for RubyConf Uruguay
+title: Lodging and and tickets oportunities for RubyConf Uruguay
 lang: en
 author: Fernando Briano
 ---
 <img src="/media/img/transhotel.jpg" style="float:right;" alt="TransHotel"/>
 
-To facilitate lodging and transportation for those coming to RubyConf Uruguay from afar, we are working on collaboration with [TransHotel](http://www.transhotel.com.uy/).
-
-We built some lodging and transportation packages from and to the airport, specific to the conference attendees.
+To facilitate lodging and transportation for those coming to RubyConf Uruguay from afar, we are working on collaboration with [TransHotel](http://www.transhotel.com.uy/). We built some lodging and transportation packages from and to the airport, specific to the conference attendees.
 
 The prices are promotional with discounts for attendees. There are hostels and different category hotels.
 
