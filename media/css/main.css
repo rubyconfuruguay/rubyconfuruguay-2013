@@ -346,7 +346,8 @@ body.home #news {
   border-color: #0d5f7e;
 }
 body.home #news article {
-  text-align: center;
+  padding: 20px;
+  line-height: 1.4
 }
 body.home #news article h1 {
   margin-bottom: 24px;
