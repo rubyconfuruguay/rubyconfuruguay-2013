@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lodging and and tickets oportunities for RubyConf Uruguay
+title: Lodging and transportation discounts for RubyConf Uruguay
 lang: en
 author: Fernando Briano
 ---
