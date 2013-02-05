@@ -5,6 +5,7 @@ exclude: ['.rvmrc']
 name: 'RubyConf Uruguay 2013'
 production_url: 'rubyconfuruguay.org'
 google_analytics_id: 'UA-17597818-1'
+posts_limit: 8
 author:
   name: 'Voluntarios de rubysur y neo'
   email: 'info@rubyconfuruguay.org'
