@@ -23,3 +23,5 @@ Solía vivir en Finlandia haciendo investigación en Gráficos de Computadora, e
 [Bryan](http://twitter.com/brynary) es el fundador de Code Climate, una herramienta para code reviews automáticos en aplicaciones Ruby, y el organizador líder de Gotham Ruby Conference en Nueva York. Durante los últimos siete años, ha estado activo en la comunidad Ruby y ha sido aclamado como orador, autor y por sus contribuciones al open source. en 2009, recibió el premio Ruby Hero Award por sus esfuerzos.
 
 Es un orgullo poder contar con tal Héroe de Ruby entre nuestros oradores, agradecemos a personas como Bryan que usen sus superpoderes para el bien y hagan de este mundo un lugar mejor.
+
+Estén atentos porque iremos anunciando más speakers la semana que viene.

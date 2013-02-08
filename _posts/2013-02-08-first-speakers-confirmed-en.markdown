@@ -23,3 +23,5 @@ He used to live in Finland doing Research on Computer Graphics at the same unive
 [Bryan](http://twitter.com/brynary) is the founder of Code Climate, an automated code review tool for Ruby apps, and the lead organizer of the Gotham Ruby Conference in NYC. For the last seven years, he's been an active in the Ruby community as an acclaimed speaker, author and open source contributor. In 2009, he received a Ruby Hero Award for his efforts.
 
 We are very proud of being able to have such a Ruby Hero among our speakers, we thank people like Bryan for using their superpower for good, making this world a better place.
+
+Stay tuned, we will be announcing more speakers next week.
