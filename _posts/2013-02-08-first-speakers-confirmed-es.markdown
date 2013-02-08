@@ -4,7 +4,7 @@ title: Confirmados los primeros oradores
 lang: es
 author: Fernando Briano
 ---
-Tras una larga noche de decisiones, estamos en la posición de comfirmarles nuestros primeros 3 oradores:
+Tras una larga noche de decisiones, estamos en la posición de confirmarles nuestros primeros 3 oradores:
 
 ## Jano González
 
