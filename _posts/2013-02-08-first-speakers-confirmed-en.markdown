@@ -16,7 +16,7 @@ Jano is crossing the Andes from Chile to join us for RubyConf for the second tim
 
 [Vicent Martí](http://twitter.com/vmg) used to make videogames, but he sold out because he likes to wear expensive clothes. Or any clothes at all. He now works full time as a systems engineer at GitHub, focusing on security and performance issues on the backend. He's also the maintainer of libgit2, the Git library that powers GitHub's backend and native clients. He takes long showers because he enjoys smelling nice.
 
-He used to live in Finland doing Research on Computer Graphics at the same university as Linus Torvalds. After que core dumped an alpha version of the Death Star, he moved to San Francisco to be a unicorn tamer at GitHub.
+He used to live in Finland doing Research on Computer Graphics at the same university as Linus Torvalds. After he core dumped an alpha version of the Death Star, he moved to San Francisco to be a unicorn tamer at GitHub.
 
 ## Bryan Helmkamp
 
