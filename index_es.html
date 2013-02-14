@@ -42,6 +42,9 @@ body_class: 'home'
             {% if post.lang == 'es'  %}
                 <article class="post">
                   <h1 class="primary"><a href="{{post.url}}">{{ post.title }}</a></h1>
+                  <span class="metadata">
+                    Publicado en <strong>{{ post.date | date: "%B %e" }}</strong> -
+                  </span>
                   <span>{{ post.content | strip_html | truncatewords: 40 }}</span>
                   <a href="{{post.url}}" class="read-more">Contin&uacute;a leyendo</a>.
                 </article>
