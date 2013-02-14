@@ -20,7 +20,8 @@ He's an active member of the development community in Uruguay and one of the co-
 
 ## Luismi Cavallé
 
-<img src="/media/img/speakers/luismi-cavalle-01.jpg" style="float:left; margin-right: 10px;" alt="Luismi Cavallé/>[Luismi](http://twitter.com/cavalle) works at BeBanjo. He's been putting together lines of Ruby code for his own enjoyment and profit since 2006. He's an active open-source contributor and got his 15 minutes of fame a couple years back as the author of Steak (later revealed as a [scam](http://steak-is-a-scam.heroku.com)). He's been involved with the Spanish Ruby community organising and speaking at local conferences and leading the Madrid Ruby users group. He lives now in London.
+<img src="/media/img/speakers/luismi-cavalle-01.jpg" style="float:left; margin-right: 10px;" alt="Luismi Cavallé"/>
+[Luismi](http://twitter.com/cavalle) works at BeBanjo. He's been putting together lines of Ruby code for his own enjoyment and profit since 2006. He's an active open-source contributor and got his 15 minutes of fame a couple years back as the author of Steak (later revealed as a [scam](http://steak-is-a-scam.heroku.com)). He's been involved with the Spanish Ruby community organising and speaking at local conferences and leading the Madrid Ruby users group. He lives now in London.
 
 We look forward to talk with Luismi about his work with the Ruby User Groups in Spain and how to build bridges between Spanish speaking Ruby communities.
 

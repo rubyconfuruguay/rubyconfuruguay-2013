@@ -10,7 +10,7 @@ Hoy estamos anunciando tres oradores más que se nos unirán para RubyConf Urugu
 
 <img src="/media/img/speakers/patricio-mac-adden-01.jpg" style="float:left; margin-right: 10px;" alt="Patricio Mac Adden"/>También conocido como "pato", a [Patricio](http://twitter.com/maxawen) le gustan los objetos, las buenas prácticas, los test y las cervezas (artesanales). Desde que comenzó a desarrollar se encontró con varios lenguajes, pero con Ruby fue amor a primera vista. Se graduó como Licenciado en Informática en la UNLP donde trabaja y da clases. Hace unos meses comenzó un grupo de ruby en La Plata para transmitir el lenguaje y juntar a los rubyistas de la ciudad.
 
-Conocimos a Patricio personalmente en [RubyConf Argentina](http://rubyconfargentina.org) donde compartinos largas charlas después de unas cuantas cervezas en el drink-up. Prometió enviar una propuesta de charla a RubyConf Uruguay, cumplió su palabra y fue aceptado.
+Conocimos a Patricio personalmente en [RubyConf Argentina](http://rubyconfargentina.org) donde compartimos largas charlas después de unas cuantas cervezas en el drink-up. Prometió enviar una propuesta de charla a RubyConf Uruguay, cumplió su palabra y fue aceptado.
 
 ## Fernando Ipar
 
@@ -20,7 +20,7 @@ Es un miembro activo de la comunidad de desarrolladores en Uruguay y uno de los 
 
 ## Luismi Cavallé
 
-<img src="/media/img/speakers/luismi-cavalle-01.jpg" style="float:left; margin-right: 10px;" alt="Luismi Cavallé/>[Luismi](http://twitter.com/cavalle) trabaja en BeBanjo. Ha estado montando líneas de código Ruby para su propio disfrute y lucro desde 2006. Contribuye activamente al open-source y tuvo sus 15 minutos de fama hace un par de años como el autor de Steak (más tarde revelado como una [estafa](http://steak-is-a-scam.heroku.com). Ha estado involucrado en la comunidad Ruby de España organizando y hablando en conferencias locales y liderando el Grupo de Usuarios Ruby de Madrid. Actualmente vive en Londres.
+<img src="/media/img/speakers/luismi-cavalle-01.jpg" style="float:left; margin-right: 10px;" alt="Luismi Cavallé"/>[Luismi](http://twitter.com/cavalle) trabaja en BeBanjo. Ha estado montando líneas de código Ruby para su propio disfrute y lucro desde 2006. Contribuye activamente al open-source y tuvo sus 15 minutos de fama hace un par de años como el autor de Steak (más tarde revelado como una [estafa](http://steak-is-a-scam.heroku.com). Ha estado involucrado en la comunidad Ruby de España organizando y hablando en conferencias locales y liderando el Grupo de Usuarios Ruby de Madrid. Actualmente vive en Londres.
 
 Esperamos poder conversar con Luismi sobre su trabajo con los grupos de usuarios Ruby en España y cómo podemos tender puentes entre las comunidades Ruby de habla hispana.
 
