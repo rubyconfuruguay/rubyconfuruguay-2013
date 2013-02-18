@@ -201,6 +201,17 @@ footer li a {
 footer li a span {
   display: none;
 }
+footer .neo {
+  background: transparent url('../img/sponsors/neo.png') left top no-repeat;
+  width: 35px;
+  height: 12px;
+  display: inline-block;
+  margin: 0 0.3em;
+}
+footer .neo span {
+  display: none;
+}
+
 footer li a.twitter { background-position: 0 -40px }
 footer li a.facebook { background-position: 0 -68px }
 footer li a.email { background-position: 0 -94px }
@@ -377,10 +388,39 @@ body.home #last-year-edition li {
 body.home #last-year-edition li img {
   height: 200px;
 }
+body.home #sponsors h1.primary {
+  margin-bottom: 50px;
+}
 body.home #sponsors {
-  background-color: #088057;
+  background-color: #fff;
   text-align: center;
-  border-color: #00603f;
+  border-color: #cecece;
+  color: #777;
+}
+body.home #sponsors .sponsor-group {
+  border: 1px solid #d0d0d0;
+  margin-bottom: 30px;
+  padding: 5%;
+  position: relative;
+}
+body.home #sponsors .sponsor-group h1 {
+  position: absolute;
+  top: -6px;
+  width: 90%;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  color: #aaa;
+}
+body.home #sponsors .sponsor-group h1 span {
+  background-color: #fff;
+  padding: 0 20px;
+}
+body.home #sponsors .sponsor-group li {
+  display: inline;
+}
+body.home #sponsors .sponsor-group li a {
+  display: inline-block;
+  padding: 20px;
 }
 body.home #sponsors p:first-of-type {
   margin-bottom: 0;
