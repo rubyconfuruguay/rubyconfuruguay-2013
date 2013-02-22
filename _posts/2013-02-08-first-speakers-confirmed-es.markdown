@@ -14,7 +14,7 @@ Desarrollador, músico aficionado y adicto a las charlas. Ha creado desde peque�
 
 ## Vicent Martí
 
-[Vicent Martí](http://twitter.com/vmg) solía hacer videojuegos, pero se vendió porque le gusta vestir ropas caras, o ropa en general. Ahora trabajo a tiempo completo como ingeniero de sistemas en GitHub, enfocándose en asuntos de seguridad y rendimiento en el backend. También mantiene libgit2, la bibliotea Git que da el poder al backend de GitHub y los clientes nativos. Toma duchas largas porque le gusta oler bien.
+[Vicent Martí](http://twitter.com/vmg) solía hacer videojuegos, pero se vendió porque le gusta vestir ropas caras, o ropa en general. Ahora trabajo a tiempo completo como ingeniero de sistemas en GitHub, enfocándose en asuntos de seguridad y rendimiento en el backend. También mantiene libgit2, la biblioteca Git que da el poder al backend de GitHub y los clientes nativos. Toma duchas largas porque le gusta oler bien.
 
 Solía vivir en Finlandia haciendo investigación en Gráficos de Computadora, en la misma universidad que Linus Torvalds. Luego que dumpeó el core de una versión alpha de la Estrella de la Muerte se mudó a San Francisco para ser domador de unicornios en GitHub.
 
