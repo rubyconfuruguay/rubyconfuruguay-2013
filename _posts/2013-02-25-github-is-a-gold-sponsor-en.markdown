@@ -9,7 +9,7 @@ author: Fernando Briano
 [GitHub](http://github.com) is our first Gold Sponsor. GitHub is the best way to build software together. Whether it's your company's app, your favorite open source library, or a weekend side project, GitHub helps everyone work better by providing tools for easier collaboration and code sharing on any device. Start collaborating today—open source project hosting is free!
 
 We love GitHub, and it turns out, they love us too <3
-GitHub has been with RubyConf Uruguay since the beginning and they had this to say about RubyConf Uruguay:
+GitHub has been with RubyConf Uruguay since the beginning and they had this to say about us:
 
 > The RubyConf Uruguay organizers know how to put on a show. Set amidst a colorful backdrop of beachfront walks, ice cream stands, and historic buildings, the conference was a great mix of local and international developer know-how. If you're lucky, you'll even get to see a national fútbol game! AAAAA++++++++++++++++++ would attend again.
 
