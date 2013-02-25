@@ -13,7 +13,7 @@ GitHub has been with RubyConf Uruguay since the beginning and they had this to s
 
 > The RubyConf Uruguay organizers know how to put on a show. Set amidst a colorful backdrop of beachfront walks, ice cream stands, and historic buildings, the conference was a great mix of local and international developer know-how. If you're lucky, you'll even get to see a national fútbol game! AAAAA++++++++++++++++++ would attend again.
 
--- **Tom Preston Warner**
+-- **Tom Preston-Werner**
 
 > Some of the best organizers I’ve ever had the pleasure of interacting with. Great speaker dinner. Got to attend an international futbol match and Pablo took me and some of the other speakers wine tasting. It was pretty awesome that they had actually translators not someone in an IRC room vigorously trying to keep up with the speaker. The conference was the first time foca introduced me to grappamiel, which is one of my favorite drinks now. 
 
