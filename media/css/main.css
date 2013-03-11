@@ -477,6 +477,25 @@ body.news .listing .metadata {
   margin-bottom: 1em;
 }
 
+.agenda {
+  background-color: #d31900;
+  color: white;
+  padding: 50px
+}
+
+.agenda table {
+  width: 50%
+}
+
+.agenda .subtitle {
+  font-family: Arvo, Helvetica, serif;
+  color: #ffaba0
+}
+
+.agenda .pic {
+  text-align: center
+}
+
 /* Media Queries *****************************************************************/
 
 @media screen and (min-width: 1600px) {
