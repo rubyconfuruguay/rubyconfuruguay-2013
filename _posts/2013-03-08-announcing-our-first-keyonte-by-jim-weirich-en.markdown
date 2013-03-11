@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Announcing our first keyonte by Jim Weirich
+title: Announcing our first keynote by Jim Weirich
 lang: en
 author: Fernando Briano
 ---
