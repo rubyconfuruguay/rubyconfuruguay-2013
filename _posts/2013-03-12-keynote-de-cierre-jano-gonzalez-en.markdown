@@ -5,9 +5,11 @@ lang: en
 author: Fernando Briano
 ---
 
-<img src="/media/img/speakers/jano-gonzalez-keynote.jpg" style="float:right; margin-left: 10px;" alt="Jano González"/>Today we are announcing the keynote that will close RubyConf Uruguay 2013 by Jano González.
+<img src="/media/img/speakers/jano-gonzalez-keynote.jpg" style="float:right; margin-left: 10px;" alt="Jano González"/>Today we are announcing the keynote that will close RubyConf Uruguay 2013 by **[Jano González](http://janogonzalez.com)**.
 
-Jano is from Chile, currently working as CTO of HopIn. We announced him as a speaker in the [first batch](http://rubyconfuruguay.org/news/first-speakers-confirmed-en), but due to his grace, insight and humour, the responsibility of the closing keynote now rests upon him. His keynote:
+[Jano](http://twitter.com/janogonzalez) is from Chile, currently working as CTO of HopIn. We announced him as a speaker in the [first batch](http://rubyconfuruguay.org/news/first-speakers-confirmed-en), but due to his grace, insight and humour, the responsibility of the closing keynote now rests upon him.
+
+Jano was a speaker at RubyConf Uruguay 2011 and our sister conference: [RubyConf Argentina 2012](http://rubyconfargentina.org). He's a big friend of the Río de la Plata, so we call him "Jano de América".
 
 ## How Ruby programmed me
 

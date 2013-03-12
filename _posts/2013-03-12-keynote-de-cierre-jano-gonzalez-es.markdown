@@ -4,9 +4,11 @@ title: Keynote de cierre Jano Gonzalez
 lang: es
 author: Fernando Briano
 ---
-<img src="/media/img/speakers/jano-gonzalez-keynote.jpg" style="float:right; margin-left: 10px;" alt="Jano González"/>Hoy estamos anunciando el keynote de cierre de RubyConf Uruguay 2013, a cargo de **Jano González**.
+<img src="/media/img/speakers/jano-gonzalez-keynote.jpg" style="float:right; margin-left: 10px;" alt="Jano González"/>Hoy estamos anunciando el keynote de cierre de RubyConf Uruguay 2013, a cargo de **[Jano González](http://janogonzalez.com)**.
 
-Jano es chileno, actual CTO de [HopIn](http://hop.in/). Lo anunciamos como orador en la [primera tanda](), pero debido a su gracia, perspicacia y humor, la responsabilidad del keynote de cierre recae sobre él. Su keynote:
+[Jano](http://twitter.com/janogonzalez) es chileno, actual CTO de [HopIn](http://hop.in/). Lo anunciamos como orador en la [primera tanda](), pero debido a su gracia, perspicacia y humor, la responsabilidad del keynote de cierre recae sobre él.
+
+Jano fue orador en RubyConf Uruguay 2011 y nuestra conferencia hermana: [RubyConf Argentina 2012](http://rubyconfargentina.org). Es un gran amigo del Río de la Plata, así que lo llamamos "Jano de América".
 
 ## Como Ruby me programo a mí
 
