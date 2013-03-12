@@ -484,17 +484,41 @@ body.news .listing .metadata {
 }
 
 .agenda table {
-  width: 50%
+  width: 50%;
+  float: left;
+  border-collapse: separate;
+  border-spacing: 2em;
+  font-family: Arvo, Helvetica, serif;
+}
+
+.agenda thead th {
+  font-size: 2em;
+  padding: 20px;
+  background-color: #a61502
 }
 
 .agenda .subtitle {
-  font-family: Arvo, Helvetica, serif;
   color: #ffaba0
 }
 
 .agenda .pic {
-  text-align: center
+  text-align: center;
 }
+
+.pic img {
+  width: 100px;
+  border-radius: 100px;
+  border: 4px solid white
+}
+
+.agenda td {
+  vertical-align: middle
+}
+
+.speaker {
+  width: 200px;
+}
+
 
 /* Media Queries *****************************************************************/
 
