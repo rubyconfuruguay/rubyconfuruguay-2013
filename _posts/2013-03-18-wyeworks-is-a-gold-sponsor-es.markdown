@@ -13,7 +13,7 @@ WyeWorks es una de las empresas de Uruguay que trabaja exclusivamente con Ruby y
 
 **-- Santiago Pastorino, fundador de WyeWorks y miembro de Rails Core Team**
 
-Gracias WyeWorks por ser nuestro segundo sponsor Gold :)
+Gracias WyeWorks por ser nuestro sponsor Gold :)
 
 <div style="text-align: center">
 <img src="/media/img/sponsors/wyeworks-team.jpg" alt="WyeWorks team"/>
