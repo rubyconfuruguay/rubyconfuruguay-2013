@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Altimetrik is a gold sponsor
+title: Altimetrik es Sponsor Gold
 lang: es
 author: Fernando Briano
 ---
