@@ -445,6 +445,14 @@ body.home #agenda .special-slot td {
   background-color: #db3627;
   border-bottom: 1px solid #d13122;
 }
+body.home.screens #agenda {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+body.home.screens #agenda table {
+  float: none;
+  width: 70%;
+}
 
 /* Sponsors */
 body.home #sponsors h1.primary {
