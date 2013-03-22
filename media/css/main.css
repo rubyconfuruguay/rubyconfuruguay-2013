@@ -412,6 +412,9 @@ body.home #agenda td {
   vertical-align: middle;
   padding: 1em;
 }
+
+body.home #agenda a { color: white; text-decoration: underline }
+
 body.home #agenda table:first-of-type {
   margin-right: 4%;
 }
