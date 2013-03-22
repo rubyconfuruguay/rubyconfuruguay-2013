@@ -453,6 +453,22 @@ body.home.screens #agenda table {
   float: none;
   width: 70%;
 }
+body.home.screens #agenda .current td {
+  background: #f44e4e;
+}
+body.home.screens #agenda .current td:first-child:before {
+  content: "";
+  position: absolute;
+  float: left;
+  left: -80px;
+  background: url("/media/img/ruby.png") no-repeat;
+  height: 48px;
+  width: 62px;
+}
+body.home.screens #agenda .special-slot td:first-child:before {
+  margin-top: -15px;
+}
+
 
 /* Sponsors */
 body.home #sponsors h1.primary {

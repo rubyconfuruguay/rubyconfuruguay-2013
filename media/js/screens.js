@@ -7,12 +7,18 @@ jQuery(function($) {
     var now = new Date();
     var $table = now.getDay() == 5 ? $("table:first") : $("table:last");
 
-    $table.find("tr").removeClass('current').filter(function() {
+    var $current = $table.find("tr").removeClass('current').filter(function() {
       var $tr = $(this);
       var time = parseInt($tr.find(".time").text().replace(/\D+/g, ''));
       return 100 * now.getHours() + now.getMinutes() > time;
-    }).last().addClass('current');
+    }).last();
+
+    $current.addClass('current');
   });
 
   setInterval(reload, 30000);
+});
+
+$(window).on("load", function() {
+  $(document).trigger("page:change");
 });
