@@ -1,197 +1,187 @@
-<table>
+<h1 class="primary">Agenda</h1>
 
+<table>
   <thead>
-    <tr> <th>Friday</th> </tr>
+    <tr>
+      <th colspan="3">{% if page.lang == 'en' %} Friday {% else %} Viernes {% endif %}</th>
+    </tr>
   </thead>
 
+  <tr class="special-slot">
+    <td colspan="2">{% if page.lang == 'en' %} Registration {% else %} Registro {% endif %}</td>
+    <td class="time">9:00 hs</td>
+  </tr>
+
+  <tr class="special-slot">
+    <td colspan="2">{% if page.lang == 'en' %} Opening {% else %} Apertura {% endif %}</td>
+    <td class="time">9:45 hs</td>
+  </tr>
+
   <tr>
-    <td colspan=2>
-      <h1 class="secondary"> Registration </h1>
+    <td>
+      <h1>Jim Weirich</h1>
+      <h2>Why aren't you using Ruby?</h2>
     </td>
     <td>
-      <h1 class="secondary">9:00 hrs</h1>
+      <img src="https://api.twitter.com/1/users/profile_image?screen_name=jimweirich&size=bigger" alt="Jim Weirich">
+    </td>
+    <td class="time">
+      10:00 hs
     </td>
   </tr>
 
   <tr>
-    <td colspan=2>
-      <h1 class="secondary"> Opening </h1>
+    <td>
+      <h1>Thiago Pradi</h1>
+      <h2>PostgreSQL on Rails</h2>
     </td>
     <td>
-      <h1 class="secondary">9:45 hrs</h1>
+      <img src="https://api.twitter.com/1/users/profile_image?screen_name=thiagopradi&size=bigger" alt="Thiago Pradi">
+    </td>
+    <td class="time">
+      11:00 hs
+    </td>
+  </tr>
+
+  <tr class="special-slot">
+    <td colspan="2">
+      Break
+    </td>
+    <td class="time">
+      11:30 hs
     </td>
   </tr>
 
   <tr>
-    <td class="speaker">
-      <h1 class="secondary">Jim Weirich</h1>
-      <p class="subtitle">Why aren't you using Ruby?</p>
-    </td>
-    <td class="pic"> <img src="https://api.twitter.com/1/users/profile_image?screen_name=jimweirich&size=bigger " alt="" /> </td>
     <td>
-      <h1 class="secondary">10:00 hrs</h1>
+      <h1>Don Mullen</h1>
+      <h2>An Introduction to Datomic</h2>
+    </td>
+    <td> <img src="https://api.twitter.com/1/users/profile_image?screen_name=donmullen&size=bigger" alt=""> </td>
+    <td class="time">
+      11:45 hs
     </td>
   </tr>
 
   <tr>
-    <td class="speaker">
-      <h1 class="secondary">Thiago Pradi</h1>
-      <p class="subtitle">PostgreSQL on Rails</p>
-    </td>
-    <td class="pic"> <img src="https://api.twitter.com/1/users/profile_image?screen_name=thiagopradi&size=bigger " alt="" /> </td>
     <td>
-      <h1 class="secondary">11:00 hrs</h1>
+      <h1>Marcos Matos</h1>
+      <h2>Ruby Theater - Using the actor model to achieve concurrency</h2>
+    </td>
+    <td>
+      <img src="https://api.twitter.com/1/users/profile_image?screen_name=marcosccm&size=bigger" alt="">
+    </td>
+    <td class="time">
+      12:15 hs
     </td>
   </tr>
 
   <tr>
-    <td colspan=2>
-      <h1 class="secondary"> Break </h1>
+    <td>
+      <h1>Fernando Ipar</h1>
+      <h2>Memoria transaccional para sistemas concurrentes</h2>
     </td>
     <td>
-      <h1 class="secondary">11:30 hrs</h1>
+      <img src="https://api.twitter.com/1/users/profile_image?screen_name=percona&size=bigger" alt="">
+    </td>
+    <td class="time">
+      12:45 hs
+    </td>
+  </tr>
+
+  <tr class="special-slot">
+    <td colspan="2">{% if page.lang == 'en' %} Lunch {% else %} Almuerzo {% endif %}</td>
+    <td class="time">13:15 hs</td>
+  </tr>
+
+  <tr class="special-slot">
+    <td colspan="2">
+      <h1>Lightning Talks</h1>
+      <h2>You</h2>
+    </td>
+    <td class="time">
+      14:30 hs
     </td>
   </tr>
 
   <tr>
-    <td class="speaker">
-      <h1 class="secondary">Don Mullen</h1>
-      <p class="subtitle">An Introduction to Datomic</p>
-    </td>
-    <td class="pic"> <img src="https://api.twitter.com/1/users/profile_image?screen_name=donmullen&size=bigger " alt="" /> </td>
     <td>
-      <h1 class="secondary">11:45 hrs</h1>
+      <h1>Justine Arreche</h1>
+      <h2>I Am Designer and So Can You!</h2>
+    </td>
+    <td>
+      <img src="https://api.twitter.com/1/users/profile_image?screen_name=theelefanta&size=bigger" alt="">
+    </td>
+    <td class="time">
+      15:00 hs
     </td>
   </tr>
 
   <tr>
-    <td class="speaker">
-      <h1 class="secondary">Marcos Matos</h1>
-      <p class="subtitle">
-        Ruby Theater - Using the actor model to achieve
-        concurrency
-      </p>
-    </td>
-    <td class="pic"> <img src="https://api.twitter.com/1/users/profile_image?screen_name=marcosccm&size=bigger " alt="" /> </td>
     <td>
-      <h1 class="secondary">12:15 hrs</h1>
+      <h1>Andreas Fast</h1>
+      <h2>Performance matters</h2>
+    </td>
+    <td>
+      <img src="https://api.twitter.com/1/users/profile_image?screen_name=ahfast&size=bigger" alt="">
+    </td>
+    <td class="time">
+      15:30 hs
+    </td>
+  </tr>
+
+  <tr class="special-slot">
+    <td colspan="2">Break</td>
+    <td class="time">16:00 hs</td>
+  </tr>
+
+  <tr>
+    <td>
+      <h1>Luismi Cavalle</h1>
+      <h2>Sustainable productivity: Rails vs OOP</h2>
+    </td>
+    <td>
+      <img src="https://api.twitter.com/1/users/profile_image?screen_name=cavalle&size=bigger" alt="">
+    </td>
+    <td class="time">
+      16:15 hs
     </td>
   </tr>
 
   <tr>
-    <td class="speaker">
-      <h1 class="secondary">Fernando Ipar</h1>
-      <p class="subtitle">
-        Memoria transaccional para sistemas concurrentes
-      </p>
-    </td>
-    <td class="pic"> <img src="https://api.twitter.com/1/users/profile_image?screen_name=percona&size=bigger " alt="" /> </td>
     <td>
-      <h1 class="secondary">12:45 hrs</h1>
+      <h1>Bryan Helmkamp</h1>
+      <h2>Rails Application Security in Practice</h2>
+    </td>
+    <td>
+      <img src="https://api.twitter.com/1/users/profile_image?screen_name=brynary&size=bigger" alt="">
+    </td>
+    <td class="time">
+      16:45 hs
     </td>
   </tr>
 
   <tr>
-    <td colspan=2>
-      <h1 class="secondary"> Lunch </h1>
+    <td>
+      <h1>Vicent Marti</h1>
+      <h2>Unicorns die with bullets made of glitter</h2>
     </td>
     <td>
-      <h1 class="secondary">13:15 hrs</h1>
+      <img src="https://api.twitter.com/1/users/profile_image?screen_name=vmg&size=bigger" alt="">
+    </td>
+    <td class="time">
+      17:25 hs
     </td>
   </tr>
 
-  <tr>
-    <td class="speaker">
-      <h1 class="secondary">Lightning Talks</h1>
-      <p class="subtitle">You </p>
-    </td>
-    <td></td>
-    <td>
-      <h1 class="secondary">14:30 hrs</h1>
-    </td>
+  <tr class="special-slot">
+    <td colspan="2">End day 1</td>
+    <td class="time">17:55 hs</td>
   </tr>
 
-  <tr>
-    <td class="speaker">
-      <h1 class="secondary">Justine Arreche</h1>
-      <p class="subtitle">I Am Designer and So Can You!</p>
-    </td>
-    <td class="pic"> <img src="https://api.twitter.com/1/users/profile_image?screen_name=theelefanta&size=bigger " alt="" /> </td>
-    <td>
-      <h1 class="secondary">15:00 hrs</h1>
-    </td>
-  </tr>
-
-  <tr>
-    <td class="speaker">
-      <h1 class="secondary">Andreas Fast</h1>
-      <p class="subtitle">Performance matters</p>
-    </td>
-    <td class="pic"> <img src="https://api.twitter.com/1/users/profile_image?screen_name=ahfast&size=bigger " alt="" /> </td>
-    <td>
-      <h1 class="secondary">15:30 hrs</h1>
-    </td>
-  </tr>
-
-  <tr>
-    <td colspan=2>
-      <h1 class="secondary"> Break </h1>
-    </td>
-    <td>
-      <h1 class="secondary">16:00 hrs</h1>
-    </td>
-  </tr>
-
-  <tr>
-    <td class="speaker">
-      <h1 class="secondary">Luismi Cavalle</h1>
-      <p class="subtitle">Sustainable productivity: Rails vs OOP</p>
-    </td>
-    <td class="pic"> <img src="https://api.twitter.com/1/users/profile_image?screen_name=cavalle&size=bigger " alt="" /> </td>
-    <td>
-      <h1 class="secondary">16:15 hrs</h1>
-    </td>
-  </tr>
-
-  <tr>
-    <td class="speaker">
-      <h1 class="secondary">Bryan Helmkamp</h1>
-      <p class="subtitle">Rails Application Security in Practice</p>
-    </td>
-    <td class="pic"> <img
-      src="https://api.twitter.com/1/users/profile_image?screen_name=brynary&size=bigger " alt="" /> </td>
-    <td>
-      <h1 class="secondary">16:45 hrs</h1>
-    </td>
-  </tr>
-
-  <tr>
-    <td class="speaker">
-      <h1 class="secondary">Vicent Marti</h1>
-      <p class="subtitle">Unicorns die with bullets made of glitter</p>
-    </td>
-    <td class="pic"> <img src="https://api.twitter.com/1/users/profile_image?screen_name=vmg&size=bigger " alt="" /> </td>
-    <td>
-      <h1 class="secondary">17:25 hrs</h1>
-    </td>
-  </tr>
-
-  <tr>
-    <td colspan=2>
-      <h1 class="secondary"> End day 1 </h1>
-    </td>
-    <td>
-      <h1 class="secondary">17:55 hrs</h1>
-    </td>
-  </tr>
-
-  <tr>
-    <td colspan=2>
-      <h1 class="secondary"> Drink Up by Neo</h1>
-    </td>
-    <td>
-      <h1 class="secondary">21:30 hrs</h1>
-    </td>
+  <tr class="special-slot">
+    <td colspan="2">Drink Up {% if page.lang == 'en' %} by {% else %} de {% endif %} Neo</td>
+    <td class="time">21:30 hs</td>
   </tr>
 
 </table>
@@ -199,247 +189,195 @@
 <table>
 
   <thead>
-    <tr> <th>Saturday</th> </tr>
+    <tr><th colspan="3">{% if page.lang == 'en' %} Saturday {% else %} Sabado {% endif %}</th></tr>
   </thead>
 
+  <tr class="special-slot">
+    <td colspan="2">{% if page.lang == 'en' %} Registration {% else %} Registro {% endif %}</td>
+    <td class="time">9:00 hs</td>
+  </tr>
+
   <tr>
-    <td colspan=2>
-      <h1 class="secondary"> Registration </h1>
+    <td>
+      <h1>Cristian Rasch</h1>
+      <h2>Despliegue de aplicaciones Rack sobre la JVM</h2>
     </td>
     <td>
-      <h1 class="secondary">9:00 hrs</h1>
+      <img src="https://api.twitter.com/1/users/profile_image?screen_name=cristianrasch&size=bigger" alt="">
+    </td>
+    <td class="time">
+      10:00 hs
     </td>
   </tr>
 
   <tr>
-    <td class="speaker">
-      <h1 class="secondary">Cristian Rasch</h1>
-      <p class="subtitle">Despliegue de aplicaciones Rack sobre la JVM</p>
-    </td>
-    <td class="pic">
-      <img src="https://api.twitter.com/1/users/profile_image?screen_name=cristianrasch&size=bigger " alt="" />
+    <td>
+      <h1>Maximo Mussini</h1>
+      <h2>The Mobile's Developer Dilemma - Native or Web? Both!</h2>
     </td>
     <td>
-      <h1 class="secondary">10:00 hrs</h1>
+      <img src="https://api.twitter.com/1/users/profile_image?screen_name=MaximoMussini&size=bigger" alt="">
+    </td>
+    <td class="time">
+      10:30 hs
     </td>
   </tr>
 
   <tr>
-    <td class="speaker">
-      <h1 class="secondary">Maximo Mussini</h1>
-      <p class="subtitle">The Mobile's Developer Dilemma - Native or Web? Both!</p>
-    </td>
-
-    <td class="pic">
-      <img src="https://api.twitter.com/1/users/profile_image?screen_name=MaximoMussini&size=bigger " alt="" />
-    </td>
-
     <td>
-      <h1 class="secondary">10:30 hrs</h1>
+      <h1>Veronica Rebagliatte</h1>
+      <h2>An intro to backbone.js</h2>
+    </td>
+    <td>
+      <img src="https://api.twitter.com/1/users/profile_image?screen_name=rebagliatte&size=bigger" alt="">
+    </td>
+    <td class="time">
+      11:00 hs
+    </td>
+  </tr>
+
+  <tr class="special-slot">
+    <td colspan="2">Break</td>
+    <td>11:30 hs</td>
+  </tr>
+
+  <tr>
+    <td>
+      <h1>Patricio Mac Adden</h1>
+      <h2>New York, New York</h2>
+    </td>
+    <td>
+      <img src="https://api.twitter.com/1/users/profile_image?screen_name=maxawen&size=bigger" alt="">
+    </td>
+    <td class="time">
+      11:45 hs
     </td>
   </tr>
 
   <tr>
-    <td class="speaker">
-      <h1 class="secondary">Veronica Rebagliatte</h1>
-      <p class="subtitle">An intro to backbone.js</p>
-    </td>
-
-    <td class="pic">
-      <img src="https://api.twitter.com/1/users/profile_image?screen_name=rebagliatte&size=bigger " alt="" />
-    </td>
-
     <td>
-      <h1 class="secondary">11:00 hrs</h1>
+      <h1>Rodolfo Pilas</h1>
+      <h2>Puppet para hacer el trabajo por ti en el Datacenter</h2>
+    </td>
+    <td>
+      <img src="https://api.twitter.com/1/users/profile_image?screen_name=ysidorito&size=bigger" alt="">
+    </td>
+    <td class="time">
+      12:15 hs
     </td>
   </tr>
 
   <tr>
-    <td colspan=2>
-      <h1 class="secondary"> Break </h1>
+    <td>
+      <h1>Schalk Neethling</h1>
+      <h2>Writing, Debugging And Testing Apps for FirefoxOS</h2>
     </td>
     <td>
-      <h1 class="secondary">11:30 hrs</h1>
+      <img src="https://api.twitter.com/1/users/profile_image?screen_name=schalkneethling&size=bigger" alt="">
+    </td>
+    <td class="time">
+      12:45 hs
+    </td>
+  </tr>
+
+  <tr class="special-slot">
+    <td colspan="2">{% if page.lang == 'en' %} Lunch {% else %} Almuerzo {% endif %}</td>
+    <td class="time">13:25 hs</td>
+  </tr>
+
+  <tr class="special-slot">
+    <td colspan="2">
+      <h1>Lightning Talks</h1>
+      <h2>You </h2>
+    </td>
+    <td class="time">
+      14:40 hs
     </td>
   </tr>
 
   <tr>
-    <td class="speaker">
-      <h1 class="secondary">Patricio Mac Adden</h1>
-      <p class="subtitle">New York, New York</p>
-    </td>
-
-    <td class="pic">
-      <img src="https://api.twitter.com/1/users/profile_image?screen_name=maxawen&size=bigger " alt="" />
-    </td>
-
     <td>
-      <h1 class="secondary">11:45 hrs</h1>
+      <h1>Julie Ann Horvath</h1>
+      <h2>The Rubyist's Guide to Design</h2>
+    </td>
+    <td>
+      <img src="https://api.twitter.com/1/users/profile_image?screen_name=nrrrdcore&size=bigger" alt="">
+    </td>
+    <td class="time">
+      15:10 hs
     </td>
   </tr>
 
   <tr>
-    <td class="speaker">
-      <h1 class="secondary">Rodolfo Pilas</h1>
-      <p class="subtitle">
-        Puppet para hacer el trabajo por ti en el Datacenter
-      </p>
-    </td>
-
-    <td class="pic">
-      <img src="https://api.twitter.com/1/users/profile_image?screen_name=ysidorito&size=bigger " alt="" />
-    </td>
-
     <td>
-      <h1 class="secondary">12:15 hrs</h1>
+      <h1>Richard Schneeman</h1>
+      <h2>Dissecting Ruby with Ruby</h2>
+    </td>
+    <td>
+      <img src="https://api.twitter.com/1/users/profile_image?screen_name=schneems&size=bigger" alt="">
+    </td>
+    <td class="time">
+      15:40 hs
+    </td>
+  </tr>
+
+  <tr class="special-slot">
+    <td colspan="2">Break</td>
+    <td class="time">16:10 hs</td>
+  </tr>
+
+  <tr>
+    <td>
+      <h1>Cyril David</h1>
+      <h2>Lean software development</h2>
+    </td>
+    <td>
+      <img src="https://api.twitter.com/1/users/profile_image?screen_name=cyx&size=bigger" alt="">
+    </td>
+    <td class="time">
+      16:15 hs
     </td>
   </tr>
 
   <tr>
-    <td class="speaker">
-      <h1 class="secondary">Schalk Neethling</h1>
-      <p class="subtitle">
-        Writing, Debugging And Testing Apps for FirefoxOS
-      </p>
-    </td>
-
-    <td class="pic">
-      <img src="https://api.twitter.com/1/users/profile_image?screen_name=schalkneethling&size=bigger " alt="" />
+    <td>
+      <h1>Peter Shanley</h1>
+      <h2>Lean Leadership aka Don't be an Asshole</h2>
     </td>
     <td>
-      <h1 class="secondary">12:45 hrs</h1>
+      <img src="https://api.twitter.com/1/users/profile_image?screen_name=petershanley&size=bigger" alt="">
+    </td>
+    <td class="time">
+      16:55 hs
     </td>
   </tr>
 
-  <tr>
-    <td colspan=2>
-      <h1 class="secondary"> Lunch </h1>
-    </td>
-    <td>
-      <h1 class="secondary">13:25 hrs</h1>
-    </td>
+  <tr class="special-slot">
+    <td colspan="2">Break</td>
+    <td class="time">16:25 hs</td>
   </tr>
 
   <tr>
-    <td class="speaker">
-      <h1 class="secondary">Lightning Talks</h1>
-      <p class="subtitle">You </p>
-    </td>
-    <td></td>
     <td>
-      <h1 class="secondary">14:40 hrs</h1>
+      <h1>Jano Gonzalez</h1>
+      <h2>How Ruby programmed me</h2>
+    </td>
+    <td>
+      <img src="https://api.twitter.com/1/users/profile_image?screen_name=janogonzalez&size=bigger" alt="">
+    </td>
+    <td class="time">
+      17:55 hs
     </td>
   </tr>
 
-  <tr>
-    <td class="speaker">
-      <h1 class="secondary">Julie Ann Horvath</h1>
-      <p class="subtitle">The Rubyist's Guide to Design</p>
-    </td>
-
-    <td class="pic">
-      <img src="https://api.twitter.com/1/users/profile_image?screen_name=nrrrdcore&size=bigger " alt="" />
-    </td>
-    <td>
-      <h1 class="secondary">15:10 hrs</h1>
-    </td>
+  <tr class="special-slot">
+    <td colspan="2">{% if page.lang == 'en' %} The end {% else %} El Fin {% endif %}</td>
+    <td class="time">19:00 hs</td>
   </tr>
 
-  <tr>
-    <td class="speaker">
-      <h1 class="secondary">Richard Schneeman</h1>
-      <p class="subtitle">Dissecting Ruby with Ruby</p>
-    </td>
-
-    <td class="pic">
-      <img src="https://api.twitter.com/1/users/profile_image?screen_name=schneems&size=bigger " alt="" />
-    </td>
-
-    <td>
-      <h1 class="secondary">15:40 hrs</h1>
-    </td>
-  </tr>
-
-  <tr>
-    <td colspan=2>
-      <h1 class="secondary"> Break </h1>
-    </td>
-    <td>
-      <h1 class="secondary">16:10 hrs</h1>
-    </td>
-  </tr>
-
-  <tr>
-    <td class="speaker">
-      <h1 class="secondary">Cyril David</h1>
-      <p class="subtitle">Lean software development</p>
-    </td>
-
-    <td class="pic">
-      <img src="https://api.twitter.com/1/users/profile_image?screen_name=cyx&size=bigger " alt="" />
-    </td>
-    <td>
-      <h1 class="secondary">16:15 hrs</h1>
-    </td>
-  </tr>
-
-  <tr>
-    <td class="speaker">
-      <h1 class="secondary">Peter Shanley</h1>
-      <p class="subtitle">Lean Leadership aka Don't be an Asshole</p>
-    </td>
-
-    <td class="pic">
-      <img src="https://api.twitter.com/1/users/profile_image?screen_name=petershanley&size=bigger " alt="" />
-    </td>
-
-    <td>
-      <h1 class="secondary">16:55 hrs</h1>
-    </td>
-  </tr>
-
-  <tr>
-    <td colspan=2>
-      <h1 class="secondary"> Break </h1>
-    </td>
-    <td>
-      <h1 class="secondary">16:25 hrs</h1>
-    </td>
-  </tr>
-
-  <tr>
-    <td class="speaker">
-      <h1 class="secondary">Jano Gonzalez</h1>
-      <p class="subtitle">How Ruby programed me</p>
-    </td>
-
-    <td class="pic">
-      <img src="https://api.twitter.com/1/users/profile_image?screen_name=janogonzalez&size=bigger " alt="" />
-    </td>
-
-    <td>
-      <h1 class="secondary">17:55 hrs</h1>
-    </td>
-  </tr>
-
-  <tr>
-    <td colspan=2>
-      <h1 class="secondary"> The End </h1>
-    </td>
-    <td>
-      <h1 class="secondary">19:00 hrs</h1>
-    </td>
-  </tr>
-
-  <tr>
-    <td colspan=2>
-      <h1 class="secondary"> Drink Up by GitHub </h1>
-    </td>
-    <td>
-      <h1 class="secondary">21:30 hrs</h1>
-    </td>
+  <tr class="special-slot">
+    <td colspan="2">Drink Up {% if page.lang == 'en' %} by {% else %} de {% endif %} GitHub</td>
+    <td class="time">21:30 hs</td>
   </tr>
 
 </table>
-
-<div class="clearfix"></div>

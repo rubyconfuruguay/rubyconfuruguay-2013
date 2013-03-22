@@ -322,11 +322,15 @@ body.home .block h1.primary {
   font-weight: 700;
   font-size: 32px;
 }
+
+/* Call for proposals */
 body.home #call-for-proposals {
   background: #d31900 url('../img/home/cfp_bg.png') center center no-repeat;
   text-align: center;
   border-color: #9f1300;
 }
+
+/* When and where */
 body.home #when-where {
   background-color: #ec6d12;
   overflow: auto;
@@ -352,6 +356,8 @@ body.home #when-where iframe {
   background-color: #fff;
   min-height: 290px;
 }
+
+/* News */
 body.home #news {
   background-color: #2b8fb5;
   border-color: #0d5f7e;
@@ -372,6 +378,8 @@ body.home #news article a.read-more {
   padding-left: 17px;
   font-weight: bold;
 }
+
+/* Last year's edition */
 body.home #last-year-edition {
   background-color: #222;
   border-color: #111;
@@ -388,6 +396,57 @@ body.home #last-year-edition li {
 body.home #last-year-edition li img {
   height: 200px;
 }
+
+/* Agenda */
+body.home #agenda {
+  background-color: #e33d2d;
+  border-color: #c12516;
+  overflow: auto;
+}
+body.home #agenda table {
+  width: 48%;
+  float: left;
+  font-family: Arvo, Helvetica, serif;
+}
+body.home #agenda td {
+  vertical-align: middle;
+  padding: 1em;
+}
+body.home #agenda table:first-of-type {
+  margin-right: 4%;
+}
+body.home #agenda th {
+  text-align: left;
+  padding: 0.4em 0 1em 0;
+  font-weight: normal;
+  font-size: 25px;
+}
+body.home #agenda img {
+  width: 100px;
+  border-radius: 100px;
+  border: 6px solid white;
+}
+body.home #agenda table h1,
+body.home #agenda table h2 {
+  line-height: 1.5em;
+}
+body.home #agenda table h1 {
+  font-weight: 400;
+  font-size: 20px;
+}
+body.home #agenda table h2 {
+  color: #ffaba0;
+  font-weight: normal;
+}
+body.home #agenda .time {
+  width: 75px;
+}
+body.home #agenda .special-slot td {
+  background-color: #db3627;
+  border-bottom: 1px solid #d13122;
+}
+
+/* Sponsors */
 body.home #sponsors h1.primary {
   margin-bottom: 50px;
 }
@@ -476,49 +535,6 @@ body.news .listing .metadata {
 body.news .listing .metadata {
   margin-bottom: 1em;
 }
-
-.agenda {
-  background-color: #d31900;
-  color: white;
-  padding: 50px
-}
-
-.agenda table {
-  width: 50%;
-  float: left;
-  border-collapse: separate;
-  border-spacing: 2em;
-  font-family: Arvo, Helvetica, serif;
-}
-
-.agenda thead th {
-  font-size: 2em;
-  padding: 20px;
-  background-color: #a61502
-}
-
-.agenda .subtitle {
-  color: #ffaba0
-}
-
-.agenda .pic {
-  text-align: center;
-}
-
-.pic img {
-  width: 100px;
-  border-radius: 100px;
-  border: 4px solid white
-}
-
-.agenda td {
-  vertical-align: middle
-}
-
-.speaker {
-  width: 200px;
-}
-
 
 /* Media Queries *****************************************************************/
 
@@ -609,6 +625,11 @@ body.news .listing .metadata {
   }
   body.home #when-where .info img {
     display: none;
+  }
+  body.home #agenda table {
+    float: none;
+    width: 100%;
+    margin-bottom: 100px;
   }
   footer .container {
     background-position: center 20px;
