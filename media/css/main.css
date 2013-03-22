@@ -672,4 +672,10 @@ body.news .listing .metadata {
   body.home #agenda img {
     display: none;
   }
+  body.home #news h1.primary {
+    font-size: 20px;
+  }
+  body.home #news .preview {
+    display: none;
+  }
 }

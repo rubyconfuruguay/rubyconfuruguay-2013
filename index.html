@@ -48,8 +48,10 @@ lang: en
                   <span class="metadata">
                     Posted on <strong>{{ post.date | date: "%B %e" }}</strong> -
                   </span>
-                  <span>{{ post.content | strip_html | truncatewords: 40 }}</span>
-                  <a href="{{post.url}}" class="read-more">Continue reading</a>
+                  <div class="preview">
+                      <span>{{ post.content | strip_html | truncatewords: 40 }}</span>
+                      <a href="{{post.url}}" class="read-more">Continue reading</a>
+                  </div>
                 </article>
             {% endif %}
         {% endfor %}
