@@ -46,10 +46,10 @@ lang: en
                 <article class="post">
                   <h1 class="primary"><a href="{{post.url}}">{{ post.title }}</a></h1>
                   <span class="metadata">
-                    Posted on <strong>{{ post.date | date: "%B %e" }}</strong> -
+                    Posted on <strong>{{ post.date | date: "%B %e" }}</strong>
                   </span>
                   <div class="preview">
-                      <span>{{ post.content | strip_html | truncatewords: 40 }}</span>
+                      - <span>{{ post.content | strip_html | truncatewords: 40 }}</span>
                       <a href="{{post.url}}" class="read-more">Continue reading</a>
                   </div>
                 </article>
