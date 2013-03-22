@@ -669,4 +669,7 @@ body.news .listing .metadata {
   body.home #last-year-edition li img {
     height: 135px;
   }
+  body.home #agenda img {
+    display: none;
+  }
 }
