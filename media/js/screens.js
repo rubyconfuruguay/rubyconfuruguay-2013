@@ -15,9 +15,9 @@ jQuery(function($) {
 
     $current.addClass('current');
 
-    setTimeout(function() {
-      $.scrollTo($current);
-    }, 0);
+    if ($current.length) {
+      setTimeout(function() { $.scrollTo($current); }, 0);
+    }
   });
 
   setInterval(reload, 30000);
