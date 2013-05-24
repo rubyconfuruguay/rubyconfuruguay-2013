@@ -10,7 +10,7 @@ Grabamos todas las charlas de la conferencia y las subimos a YouTube. Hubieron c
   
   <iframe width="560" height="315" src="http://www.youtube.com/embed/videoseries?list=PLxx5qlTQCf0z2oFGlTDvLJTNMEKpgyopE" frameborder="0" allowfullscreen></iframe>
   
-  * **Traducciones** - con pista de audio de la traducción (español a inglés, inglés a español). Esta es la [lista para todos estos videos](http://www.youtube.com/watch?v=71jPgIEyM7A&list=PLxx5qlTQCf0wupbvnbnIz5SWS7ZTkK8p0):
+  * **Traducciones** - con pista de audio de la traducción (español a inglés, inglés a español). Esta es la [lista para todos estos videos](http://www.youtube.com/playlist?list=PLxx5qlTQCf0wupbvnbnIz5SWS7ZTkK8p0):
   
   <iframe width="560" height="315" src="http://www.youtube.com/embed/Pv04nSmra0w?list=PLxx5qlTQCf0wupbvnbnIz5SWS7ZTkK8p0" frameborder="0" allowfullscreen></iframe>
 
